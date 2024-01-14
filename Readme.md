@@ -17,6 +17,15 @@ Ensure that you have the following dependencies installed:
 NOTE : We have 2 packages, one that imports and loads the toy car into the gazebo (cmake dependency)
 and the other to subscribe and publish to the topic to move the car in gazebo (python dependency).
 
+## SOLIDWORKS DESIGN
+
+### TOY CAR
+
+<p align="center">
+<img width="80%" alt="car" src="design.png">
+</p>
+
+
 ## Setup
 
 1. **Building the Packages**
@@ -92,6 +101,7 @@ bash
 source /opt/ros/<ros2_distro>/setup.bash
 
 Replace <ros2_distro> with your specific ROS 2 distribution (e.g., foxy, galactic) and <path_to_your_ros_workspace> with the actual path to your workspace.
+
 
 ## RESULTS
 
