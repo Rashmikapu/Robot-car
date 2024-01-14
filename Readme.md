@@ -89,12 +89,12 @@ bash
 ### PROPORTIONAL CONTROLLER
 
 <p align="center">
-<img width="40%" alt="prop controller" src="Videos/proportional_controller.gif">
+<img width="100%" alt="prop controller" src="Videos/proportional_controller.gif">
 </p>
 
 ### TELEOP ON COMPETITION ARENA
 <p align="center">
-<img width="40%" alt="teleop" src="Videos/teleop.gif">
+<img width="100%" alt="teleop" src="Videos/teleop.gif">
 </p>
 
 Note- Remember to source your ROS 2 environment in each terminal session:
