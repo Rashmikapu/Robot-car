@@ -84,18 +84,7 @@ bash
 
     ros2 run py_pub sub
 
-## RESULTS
 
-### PROPORTIONAL CONTROLLER
-
-<p align="center">
-<img width="100%" alt="prop controller" src="Videos/proportional_controller.gif">
-</p>
-
-### TELEOP ON COMPETITION ARENA
-<p align="center">
-<img width="100%" alt="teleop" src="Videos/teleop.gif">
-</p>
 
 Note- Remember to source your ROS 2 environment in each terminal session:
 
@@ -103,3 +92,18 @@ bash
 source /opt/ros/<ros2_distro>/setup.bash
 
 Replace <ros2_distro> with your specific ROS 2 distribution (e.g., foxy, galactic) and <path_to_your_ros_workspace> with the actual path to your workspace.
+
+## RESULTS
+
+### PROPORTIONAL CONTROLLER
+
+<p align="center">
+<img width="100%" alt="prop controller" src="Videos/proportional_controller.gif">
+</p>
+Full video - Videos/proportional_controller.webm
+
+### TELEOP ON COMPETITION ARENA
+<p align="center">
+<img width="100%" alt="teleop" src="Videos/teleop.gif">
+</p>
+Full video - Videos/teleop.mp4
