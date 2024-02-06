@@ -43,62 +43,69 @@ Running the Simulations
 Once the project is built, you can execute various parts of the project as follows:
 Visualization with Rviz
 
-bash
+```bash
 
-"ros2 launch bot_car display.launch.py"
+ros2 launch bot_car display.launch.py
+```
 
 This command initializes an Rviz session to visualize the robot's model and sensor data.
 Simulation with Gazebo
 
-bash
+```bash
 
-"ros2 launch bot_car gazebo.launch.py"
+ros2 launch bot_car gazebo.launch.py
+```
 
 Use this command to start the Gazebo simulator with the robot loaded into the environment.
 Debugging
 
-bash
+```bash
 
-"ros2 launch bot_car debug.launch.py"
+ros2 launch bot_car debug.launch.py
+```
 
 For debugging purposes, this command will run both the Gazebo simulator and an Rviz session concurrently.
 Competition Mode
 
 To start the robot in a competition map with teleoperation enabled:
 
-    Run the competition launch file:
+ Run the competition launch file:
 
-    bash
+```bash
 
-"ros2 launch bot_car competition.launch.py"
-
+ros2 launch bot_car competition.launch.py
+```
 In a new terminal, navigate to the scripts directory within your ROS workspace and execute the teleoperation script:
-    cd <path_to_your_ros_workspace>/src/bot_car/scripts
-    ./teleop.py
+
+``` cd <path_to_your_ros_workspace>/src/bot_car/scripts./teleop.py ```
 
 Proportional Controller: To execute the proportional controller:
 Start the Gazebo environment with:
 
-"ros2 launch bot_car gazebo.launch.py"
+```
+ros2 launch bot_car gazebo.launch.py
+```
 
 Open a new terminal and run the publisher:
 
-bash
+```bash
 
 ros2 run py_pub pub
+```
 
 In another terminal and start the subscriber:
 
-bash
+```bash
 
     ros2 run py_pub sub
 
-
+```
 
 Note- Remember to source your ROS 2 environment in each terminal session:
 
-bash
+```bash
 source /opt/ros/<ros2_distro>/setup.bash
+```
 
 Replace <ros2_distro> with your specific ROS 2 distribution (e.g., foxy, galactic) and <path_to_your_ros_workspace> with the actual path to your workspace.
 
